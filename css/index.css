@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap');
+
+.greeting {
+    position: fixed;
+    bottom: 115px;
+    left: 40px;
+    color: aliceblue;
+    font-family: 'dancing script';
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.name {
+    position: fixed;
+    bottom: 40px;
+    left: 40px;
+    font-family: poppins, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+.name2 {
+    position: fixed; 
+    right: 18px; 
+    top: 250px; 
+    font-family: poppins;
+}
+.skills{
+    position: fixed; 
+    right: 65px; 
+    top: 330px; 
+    font-family: poppins;
+    text-align: center;
+}
+
+.info{
+    position: fixed; 
+    right: 50px; 
+    top: 500px; 
+    font-family: poppins;
+    text-align: center;
+}
+
+.role {
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+    color: aliceblue;
+    font-family: 'Barlow Semi Condensed';
+    font-weight:500;
+    font-size: 30px;
+}
+
+.links {
+    position: fixed;
+    top:14px;
+    left: 90;
+    font-size: 15;
+    font-family: poppins;}
+
+.profile-photo{
+    position: fixed;
+    width: 13%;
+    right: 80px;
+    top: 70px;
+    border:0cap;
+    border-radius:50%;
+    border-style:double;
+}

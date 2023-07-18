@@ -2,18 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap');
 
-.heading{
+.heading {
     font-size: 50px;
     font-family: poppins;
-    position: fixed;
+    position: relative;
     text-align: center;
     left: 480;
-    top: 120;
+    top: 11px;
 }
 
-.paragraph{
+.paragraph {
     font-family: poppins;
     text-align: center;
     position: relative;
-    top: 250px;
+    top: 180px;
 }

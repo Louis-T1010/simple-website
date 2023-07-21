@@ -4,9 +4,9 @@
 
 
 .greeting {
-    position: fixed;
-    bottom: 115px;
-    left: 40px;
+    position: relative;
+    top: 320px;
+    left: 31px;
     color: aliceblue;
     font-family: 'dancing script';
     font-weight: lighter;
@@ -14,9 +14,9 @@
 }
 
 .name {
-    position: fixed;
-    bottom: 40px;
-    left: 40px;
+    position: relative;
+    top: 276px;
+    left: 31px;
     font-family: poppins, sans-serif;
     font-size: 50px;
     color: white;
@@ -38,7 +38,7 @@
 }
 
 .info {
-    position: fixed;
+    position: absolute;
     right: 50px;
     top: 500px;
     font-family: poppins;
@@ -46,9 +46,9 @@
 }
 
 .role {
-    position: fixed;
-    bottom: 0px;
-    left: 40px;
+    position: relative;
+    top: 238px;
+    left: 31px;
     color: aliceblue;
     font-family: 'Barlow Semi Condensed';
     font-weight: 500;

@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap');
+
+#home {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: rgb(238, 255, 255);
+    width: 100%;
+    height: 100%;
+}
+
+img.computer-image{
+    width: 77.5%; height: 89%; position: absolute; top: 82px; right: 342px
+}
+
+img.profile-photo{
+    position: relative;
+    width: 13%;
+    left: 83%;
+    top: 50px;
+    border: 0cap;
+    border-radius: 50%;
+    border-style: double;
+}
+
+.greeting {
+    position: relative;
+    top: 320px;
+    left: 31px;
+    color: aliceblue;
+    font-family: 'dancing script';
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.name {
+    position: relative;
+    top: 276px;
+    left: 31px;
+    font-family: poppins, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.name2 {
+    position: absolute;
+    right: 0.7cm;
+    top: 250px;
+    font-family: poppins;
+}
+
+.skills {
+    position: absolute;
+    right: 65px;
+    top: 330px;
+    font-family: poppins;
+    text-align: center;
+}
+
+.info {
+    position: absolute;
+    right: 50px;
+    top: 500px;
+    font-family: poppins;
+    text-align: center;
+}
+
+.role {
+    position: relative;
+    top: 238px;
+    left: 31px;
+    color: aliceblue;
+    font-family: 'Barlow Semi Condensed';
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.links {
+    position: fixed;
+    top: 14px;
+    left: 90;
+    font-size: 15;
+    font-family: poppins;
+}
+
+#about{
+    position: absolute; 
+    bottom: -723px; 
+    right: 8px; 
+    background-color: rgb(250, 232, 235); 
+    width: 100%; 
+    height: 99.3%;
+}
+
+.heading {
+    font-size: 50px;
+    font-family: poppins;
+    position: relative;
+    text-align: center;
+    left: 480;
+    top: 11px;
+}
+
+.paragraph {
+    font-family: poppins;
+    text-align: center;
+    position: relative;
+    top: 180px;
+}
+
+#interests{
+    position: absolute; 
+    bottom: -1450px; 
+    right: 8px; 
+    background-color: rgb(237, 250, 232); 
+    width: 100%; 
+    height: 100%;
+}
+
+.duolingo-image {
+    width: 23%;
+    position: absolute;
+    top: 90px;
+    left: 40px;
+}
+
+.languages {
+    position: absolute;
+    top: 120px;
+    left: 350px;
+    font-family: poppins;
+    font-size: 20px;
+}
+
+.memrise-image {
+    width: 27%;
+    position: absolute;
+    top: 270px;
+    left: 290px;
+}
+
+.game1 {
+    width: 27%;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+}
+
+.gaming {
+    position: absolute;
+    top: 277px;
+    right: 250px;
+    text-align: center;
+    font-family: poppins;
+    font-size: 20px;
+}
+
+.game2 {
+    width: 27%;
+    position: absolute;
+    top: 390px;
+    right: 310px;
+}
+
+.game3 {
+    width: 27%;
+    position: absolute;
+    top: 500px;
+    right: 0px;
+}
+
+.show {
+    width: 27%;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+.show-text {
+    font-family: poppins;
+    font-size: 20px;
+    position: absolute;
+    bottom: 110px;
+    left: 480px;
+}
+
+.heading {
+    font-family: 'Dancing Script';
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top: -30px;
+}
+

@@ -2,24 +2,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap');
 
+html {
+    scroll-behavior: smooth;
+    
+}
+
 #home {
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: 0vw;
+    top: 0vw;
     background-color: rgb(238, 255, 255);
     width: 100%;
     height: 100%;
 }
 
 img.computer-image{
-    width: 77.5%; height: 89%; position: absolute; top: 82px; right: 342px
+    width: 72.7vw; height: 43.4vw; position: absolute; top: 6.4vw; left: 0vw;
 }
 
 img.profile-photo{
-    position: relative;
-    width: 13%;
-    left: 83%;
-    top: 50px;
+    position: absolute;
+    width: 13vw;
+    right: 6vw;
+    top: 5vw;
     border: 0cap;
     border-radius: 50%;
     border-style: double;
@@ -27,68 +32,69 @@ img.profile-photo{
 
 .greeting {
     position: relative;
-    top: 320px;
-    left: 31px;
+    top: 35.5vw;
+    left: 2.5vw;
     color: aliceblue;
     font-family: 'dancing script';
     font-weight: lighter;
-    font-size: 30px;
+    font-size: 2vw;
 }
 
 .name {
     position: relative;
-    top: 276px;
-    left: 31px;
+    top: 32vw;
+    left: 2.5vw;
     font-family: poppins, sans-serif;
-    font-size: 50px;
+    font-size: 4vw;
     color: white;
 }
 
 .name2 {
     position: absolute;
-    right: 0.7cm;
-    top: 250px;
+    font-size: 2.4vw;
+    right: 1.5vw;
+    top: 18vw;
     font-family: poppins;
 }
 
 .skills {
     position: absolute;
-    right: 65px;
-    top: 330px;
+    right: 4.8vw;
+    top: 24vw;
     font-family: poppins;
     text-align: center;
 }
 
 .info {
     position: absolute;
-    right: 50px;
-    top: 500px;
+    right: 4vw;
+    bottom: 4vw;
     font-family: poppins;
     text-align: center;
+    font-size: 1.2vw;
 }
 
 .role {
     position: relative;
-    top: 238px;
-    left: 31px;
+    top: 28.2vw;
+    left: 2.5vw;
     color: aliceblue;
     font-family: 'Barlow Semi Condensed';
     font-weight: 500;
-    font-size: 30px;
+    font-size: 2vw;
 }
 
 .links {
     position: fixed;
-    top: 14px;
-    left: 90;
-    font-size: 15;
+    top: 1vw;
+    font-size: 1.2vw;
     font-family: poppins;
 }
 
 #about{
     position: absolute; 
-    bottom: -723px; 
-    right: 8px; 
+    top: 49.5vw; 
+    right: 0vw; 
     background-color: rgb(250, 232, 235); 
     width: 100%; 
     height: 99.3%;
@@ -112,85 +118,104 @@ img.profile-photo{
 
 #interests{
     position: absolute; 
-    bottom: -1450px; 
-    right: 8px; 
+    top: 98.5vw; 
+    right: 0vw; 
     background-color: rgb(237, 250, 232); 
     width: 100%; 
     height: 100%;
 }
 
 .duolingo-image {
-    width: 23%;
+    width: 26vw;
     position: absolute;
-    top: 90px;
-    left: 40px;
+    top: 7vw;
+    left: 3vw;
 }
 
 .languages {
     position: absolute;
-    top: 120px;
-    left: 350px;
+    top: 9vw;
+    left: 26vw;
     font-family: poppins;
     font-size: 20px;
 }
 
 .memrise-image {
-    width: 27%;
+    width: 27vw;
     position: absolute;
-    top: 270px;
-    left: 290px;
+    top: 20vw;
+    left: 21vw;
 }
 
 .game1 {
-    width: 27%;
+    width: 27vw;
     position: absolute;
-    top: 100px;
-    right: 50px;
+    top: 8vw;
+    right: 5vw;
 }
 
 .gaming {
     position: absolute;
-    top: 277px;
-    right: 250px;
+    top: 20vw;
+    right: 11vw;
     text-align: center;
     font-family: poppins;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
 .game2 {
-    width: 27%;
+    width: 23vw;
     position: absolute;
-    top: 390px;
-    right: 310px;
+    bottom: 7vw;
+    right: 20vw;
 }
 
 .game3 {
-    width: 27%;
+    width: 26vw;
     position: absolute;
-    top: 500px;
+    bottom: 0px;
     right: 0px;
 }
 
 .show {
-    width: 27%;
+    width: 27vw;
     position: absolute;
-    bottom: 50px;
-    left: 50px;
+    bottom: 2.5vw;
+    left: 0vw;
 }
 
 .show-text {
     font-family: poppins;
-    font-size: 20px;
+    font-size: 1.5vw;
     position: absolute;
-    bottom: 110px;
-    left: 480px;
+    bottom: 5vw;
+    left: 30vw;
 }
 
 .heading {
     font-family: 'Dancing Script';
     text-align: center;
-    font-size: 50px;
+    font-size: 3.5vw;
     position: relative;
-    top: -30px;
+    top: 0vw;
 }
 
+#portfolio {
+    position: absolute; 
+    bottom: -155.7vw; 
+    top: 148vw;
+    right: 0vw; 
+    background-color: rgb(248, 255, 207); 
+    width: 100%; 
+    height: 100%;
+}
+
+p.comming-soon{
+    font-family: poppins;
+    position: absolute;
+    text-align: center;
+    top: 19vw;
+    right: 32vw;
+    font-size: 1.7vw;
+    font-weight: 600;
+}

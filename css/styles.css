@@ -59,11 +59,12 @@ img.profile-photo{
 }
 
 .skills {
-    position: absolute;
-    right: 4.8vw;
-    top: 24vw;
+ 
     font-family: poppins;
     text-align: center;
+    position: relative;
+    top: 8vw;
+    font-weight: 600;
 }
 
 .info {
@@ -100,7 +101,7 @@ img.profile-photo{
 
 #about{
     position: absolute; 
-    top: 49.5vw; 
+    top: 48.5vw; 
     right: 0vw; 
     background-color: rgb(250, 232, 235); 
     width: 100%; 
@@ -137,7 +138,7 @@ img.profile-photo{
 
 #skills{
     position: absolute; 
-    top: 98.5vw; 
+    top: 96.5vw; 
     right: 0vw; 
     background-color: rgb(237, 250, 232); 
     width: 100%; 
@@ -148,7 +149,7 @@ img.profile-photo{
 #interests{
     position: absolute; 
     bottom: -155.7vw; 
-    top: 148vw;
+    top: 145vw;
     right: 0vw; 
     background-color: rgb(233, 255, 207); 
     width: 100%; 
@@ -191,21 +192,20 @@ img.profile-photo{
     text-align: center;
     font-family: poppins;
     font-size: 1.5vw;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 15 0 10px;
 }
 
 .game2 {
     margin-top: 10px;
     width: 23vw;
     position: absolute;
-    bottom: 7vw;
+    bottom: 5vw;
     right: 20vw;
 }
 
 .game3 {
     width: 26vw;
-    position: absolutezzz;
+    position: absolute;
     bottom: 0px;
     right: 0px;
 }
@@ -236,7 +236,7 @@ img.profile-photo{
 #portfolio {
     position: absolute; 
     bottom: -155.7vw; 
-    top: 198vw;
+    top: 193.6vw;
     right: 0vw; 
     background-color: rgb(254, 255, 207); 
     width: 100%; 

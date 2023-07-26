@@ -86,10 +86,16 @@ img.profile-photo{
 }
 
 .links {
+    margin-left: 1vw;
     position: fixed;
     top: 1vw;
     font-size: 1.2vw;
     font-family: poppins;
+    color: none;
+}
+
+#navigation{
+    color: rgb(0, 0, 0);
 }
 
 #about{
@@ -99,6 +105,18 @@ img.profile-photo{
     background-color: rgb(250, 232, 235); 
     width: 100%; 
     height: 99.3%;
+}
+
+.profile-photo2{
+    width: 21vw;
+    position:absolute;
+    bottom: 2vw;
+    left: 43vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 4vw;
+    border-radius: 50vw;    
 }
 
 .heading {
@@ -114,14 +132,25 @@ img.profile-photo{
     font-family: poppins;
     text-align: center;
     position: relative;
-    top: 180px;
+    top: 90px;
 }
 
-#interests{
+#skills{
     position: absolute; 
     top: 98.5vw; 
     right: 0vw; 
     background-color: rgb(237, 250, 232); 
+    width: 100%; 
+    height: 100%;
+}
+
+
+#interests{
+    position: absolute; 
+    bottom: -155.7vw; 
+    top: 148vw;
+    right: 0vw; 
+    background-color: rgb(233, 255, 207); 
     width: 100%; 
     height: 100%;
 }
@@ -162,9 +191,12 @@ img.profile-photo{
     text-align: center;
     font-family: poppins;
     font-size: 1.5vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .game2 {
+    margin-top: 10px;
     width: 23vw;
     position: absolute;
     bottom: 7vw;
@@ -173,7 +205,7 @@ img.profile-photo{
 
 .game3 {
     width: 26vw;
-    position: absolute;
+    position: absolutezzz;
     bottom: 0px;
     right: 0px;
 }
@@ -204,9 +236,9 @@ img.profile-photo{
 #portfolio {
     position: absolute; 
     bottom: -155.7vw; 
-    top: 148vw;
+    top: 198vw;
     right: 0vw; 
-    background-color: rgb(248, 255, 207); 
+    background-color: rgb(254, 255, 207); 
     width: 100%; 
     height: 100%;
 }

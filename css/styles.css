@@ -7,6 +7,19 @@ html {
     
 }
 
+.links {
+    margin-left: 1vw;
+    position: fixed;
+    top: 1vw;
+    font-size: 1.2vw;
+    font-family: poppins;
+    color: none;
+}
+
+#navigation{
+    color: rgb(0, 0, 0);
+}
+
 #home {
     position: absolute;
     left: 0vw;
@@ -86,18 +99,7 @@ img.profile-photo{
     font-size: 2vw;
 }
 
-.links {
-    margin-left: 1vw;
-    position: fixed;
-    top: 1vw;
-    font-size: 1.2vw;
-    font-family: poppins;
-    color: none;
-}
 
-#navigation{
-    color: rgb(0, 0, 0);
-}
 
 #about{
     position: absolute; 
